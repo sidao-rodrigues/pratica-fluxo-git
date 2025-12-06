@@ -1,0 +1,44 @@
+.versao-container {
+  margin-top: 3rem;
+  padding: 1.5rem;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.versao-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.versao-projeto {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #3498db;
+  text-transform: lowercase;
+}
+
+.versao-separador {
+  color: #95a5a6;
+  font-weight: bold;
+}
+
+.versao-numero {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #2ecc71;
+  font-family: 'Courier New', monospace;
+  background-color: rgba(46, 204, 113, 0.1);
+  padding: 0.25rem 0.75rem;
+  border-radius: 15px;
+}
+
+.versao-texto {
+  font-size: 0.9rem;
+  color: #95a5a6;
+  margin: 0;
+}
