@@ -1,0 +1,95 @@
+.desenvolvedor-container {
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 2rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.desenvolvedor-titulo {
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 0 0 1.5rem 0;
+  font-weight: bold;
+}
+
+.desenvolvedor-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.desenvolvedor-nome {
+  text-align: center;
+}
+
+.nome-principal {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 0 0.5rem 0;
+}
+
+.nome-subtitulo {
+  font-size: 1rem;
+  margin: 0;
+  opacity: 0.9;
+  color: #a8d0ff;
+}
+
+.desenvolvedor-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dev-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.link-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.github-link {
+  background-color: #333;
+}
+
+.github-link:hover {
+  background-color: #24292e;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.linkedin-link {
+  background-color: #0077b5;
+}
+
+.linkedin-link:hover {
+  background-color: #005582;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 600px) {
+  .desenvolvedor-links {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .dev-link {
+    width: 100%;
+    justify-content: center;
+  }
+}
