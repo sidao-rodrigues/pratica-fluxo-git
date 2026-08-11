@@ -1,0 +1,92 @@
+.ferramentas-ia-container {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  border-left: 4px solid #764ba2;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ferramentas-ia-titulo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin: 0 0 1rem 0;
+  text-align: center;
+}
+
+.ferramentas-ia-introducao {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+  margin: 0 0 2rem 0;
+  text-align: justify;
+}
+
+.ferramentas-ia-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.ferramenta-card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.ferramenta-card:hover {
+  transform: translateY(-2px);
+  border-color: #667eea;
+  box-shadow: 0 4px 8px rgba(102, 126, 234, 0.2);
+}
+
+.ferramenta-icone {
+  font-size: 1.8rem;
+  line-height: 1;
+}
+
+.ferramenta-nome {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #667eea;
+  margin: 0.75rem 0 0.5rem 0;
+}
+
+.ferramenta-descricao {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+}
+
+.ferramentas-ia-nota {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #856404;
+  background-color: #fff3cd;
+  border: 2px solid #ffc107;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 2rem 0 0 0;
+}
+
+@media (max-width: 600px) {
+  .ferramentas-ia-container {
+    padding: 1.5rem;
+  }
+
+  .ferramentas-ia-titulo {
+    font-size: 1.5rem;
+  }
+
+  .ferramentas-ia-introducao {
+    text-align: left;
+  }
+
+  .ferramentas-ia-grid {
+    grid-template-columns: 1fr;
+  }
+}
